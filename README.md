@@ -1,8 +1,6 @@
 # Beautify PowerShell with oh-my-posh
 ## Step-1
-Put robi.omp.json in <pre>cd '~/.config/powershell/' folder</pre>
+Put robi.omp.json in this folder <pre>cd '~/.config/powershell/'</pre>
 
 ## Step-2
-Paste codes from **Profile.txt** in <pre>. $PROFILE.CurrentuserCurrentHost</pre>
-
-**Run** <pre>code $PROFILE.CurrentuserCurrentHost</pre>
+Paste codes from **Profile.txt** in <pre>code $PROFILE.CurrentuserCurrentHost</pre>
