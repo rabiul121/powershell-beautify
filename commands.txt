@@ -1,0 +1,24 @@
+1. Download and install nerdfonts (Hack)
+2. Open windows Terminal and change font to Hack NF, Goto defaults and turn on acrylic (50%), show acrylic in tab show.
+3. Open Microsoft store and install PowerShell
+4. Set PowerShell as default shell
+5. Modify Color Theme (One Half Dark Modified) (set "background": "#001B26")
+6. install scoop (iwr -useb get.scoop.sh | iex)
+7. scoop install curl sudo jq
+8. curl 'https://api.inkdrop.app/' | jq .
+9. code $PROFILE.CurrentUserCurrentHost
+	** Paste the code from profile.txt
+
+11. Install-Module posh-git -Scope Currentuser -Force
+12. Install-Module oh-my-posh -Scope Currentuser -Force
+14. scoop install nvm
+15. nvm install 14.16.0
+16. sudo nvm use 14.16.0
+17. Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+18. Install-Module -Name z -Force
+19. Install-Module -Name PSFzf -Scope CurrentUser -Force
+20. Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+21. Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+22. Set-PSReadLineOption -PredictionSource History
+23. Set-PSReadLineOption -PredictionViewStyle ListView
+24. Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
