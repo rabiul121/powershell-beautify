@@ -9,7 +9,7 @@
 9. code $PROFILE.CurrentUserCurrentHost
 	** Paste the code from profile.txt
 
-11. Install-Module posh-git -Scope Currentuser -Force
+11. Install-Module posh-git -Scope Currentuser -Force / choco install poshgit
 12. winget install JanDeDobbeleer.OhMyPosh
 14. scoop install nvm
 15. nvm install 14.16.0
@@ -22,14 +22,17 @@
 22. Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 23. Set-PSReadLineOption -PredictionSource History
 24. Set-PSReadLineOption -PredictionViewStyle ListView
-25. Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+25. scoop install fzf
+26. Install-Module -Name PSFzf
+27. Import-Module PSFzf
+28. Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # How to change oh-my-posh theme:
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\jandedobbeleer.omp.json | Invoke-Expression
 
 # Theme Folder: C:\Users\Robi\AppData\Local\Programs\oh-my-posh\themes
 
-# Custom Theme: 
+# Custom Theme:
 oh-my-posh --init --shell pwsh --config "C:\Users\robi\.config\powershell\robi.omp.json" | Invoke-Expression
 
 # Change Time Format to 12-hour:
