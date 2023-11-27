@@ -3,7 +3,7 @@
 3. Open Microsoft store and install PowerShell
 4. Set PowerShell as default shell
 5. Modify Color Theme (One Half Dark Modified) (set "background": "#001B26")
-6. install scoop (iwr -useb get.scoop.sh | iex)
+6. iwr -useb get.scoop.sh | iex
 7. scoop install curl sudo jq
 8. curl 'https://api.inkdrop.app/' | jq .
 9. code $PROFILE.CurrentUserCurrentHost
